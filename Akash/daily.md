@@ -1,7 +1,5 @@
 # Daily two problems
 
-Just show up. Two problems a day with Sawta. Trace first, then code.
-
 ## Week rhythm
 
 - **6 days** — 2 new problems. One pattern if you can (both recursion, both maps, both two pointers).

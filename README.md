@@ -18,4 +18,4 @@ Akash/          ← Akash's daily files
 base/           ← older notes, patterns, and solved problems
 ```
 
-Sawta's files can live beside `Akash/` the same way: one file per day, named `day-N-DD-mon.js`.
+friends files can live beside `Akash/` the same way: one file per day, named `day-N-DD-mon.js`.
