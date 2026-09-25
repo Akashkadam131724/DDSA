@@ -4,12 +4,11 @@ Daily practice with **Sawta**. No streak anxiety, no perfect solutions first. We
 
 ## How we work
 
-- Open a problem
-- Trace it on paper / in comments before coding
-- Write it down in today's file
-- Talk through what broke, not just what passed
+- **6 days:** 2 new problems. Trace on paper / in comments, then code.
+- **1 day:** review the last 5–6 days only. Hide the files, re-trace, say TC/SC. No new problems.
+- Talk through what broke, not just what passed.
 
-The win is being here. The rest follows.
+The win is being here. The rest follows. Tracker: `Akash/daily.md`.
 
 ## Layout
 
