@@ -24,7 +24,7 @@ Copy a blank row when you start a practice day. File the code in `day-N-DD-mon.j
 | 2 | 23 Sep 2026 | [Two sum](https://leetcode.com/problems/two-sum/) | [Valid anagram](https://leetcode.com/problems/valid-anagram/) | | hash map: look up complement / count letters |
 | 3 | 24 Sep 2026 | [Roman to integer](https://leetcode.com/problems/roman-to-integer/) | [Integer to roman](https://leetcode.com/problems/integer-to-roman/) | | same map, opposite directions: subtract if smaller before larger / greedy peel largest |
 | 4 | 25 Sep 2026 | [Valid palindrome](https://leetcode.com/problems/valid-palindrome/) | [Two sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | yes | two pointers from the ends: skip junk then compare / sum too small left++ too big right-- |
-| 5 | 26 Sep 2026 | | | | |
+| 5 | 26 Sep 2026 | [Binary search](https://leetcode.com/problems/binary-search/) | [Search insert position](https://leetcode.com/problems/search-insert-position/) | yes | binary search: while left <= right so the last cell still gets checked. insert pos is the same loop — leftover left is where it belongs |
 | 6 | 27 Sep 2026 | | | | |
 | review | 28 Sep 2026 | — | — | | week 1: days 1–6, hide files, re-trace + TC/SC |
 
