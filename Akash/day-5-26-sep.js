@@ -54,5 +54,48 @@ console.log(binarySearch(arr, 10));
 // 10 <= 9 is false. empty range. return -1
 
 
-// 2. Search insert posittion https://leetcode.com/problems/search-insert-position/
+// 2. Search insert position  https://leetcode.com/problems/search-insert-position/
+// same loop as binary search. if found → return mid.
+// if missing → left has walked to the index where target should sit.
 
+function searchInsert(nums, target) {
+  let left = 0;
+  let right = nums.length - 1;
+
+  while (left <= right) {
+    const mid = Math.floor((left + right) / 2);
+    if (nums[mid] === target) {
+      return mid;
+    } else if (nums[mid] < target) {
+      left = mid + 1;
+    } else {
+      right = mid - 1;
+    }
+  }
+  return left;
+}
+
+console.log(searchInsert([1, 3, 5, 6], 5)); // 2  found
+console.log(searchInsert([1, 3, 5, 6], 2)); // 1  insert before 3
+console.log(searchInsert([1, 3, 5, 6], 7)); // 4  insert at end
+
+// index  0  1  2  3
+// nums   1  3  5  6
+//
+// target 5 (found)
+// left=0 right=3  mid=1  nums[1]=3 < 5  → left = 2
+// left=2 right=3  mid=2  nums[2]=5 === 5  found 2
+//
+// target 2 (missing — insert at 1)
+// left=0 right=3  mid=1  nums[1]=3 > 2  → right = 0
+// left=0 right=0  mid=0  nums[0]=1 < 2  → left = 1
+// 1 <= 0 is false. leftover left=1  → [1, 2, 3, 5, 6]
+//
+// target 7 (missing — insert at end)
+// left=0 right=3  mid=1  nums[1]=3 < 7  → left = 2
+// left=2 right=3  mid=2  nums[2]=5 < 7  → left = 3
+// left=3 right=3  mid=3  nums[3]=6 < 7  → left = 4
+// 4 <= 3 is false. leftover left=4
+//
+// binary search miss → return -1
+// insert miss       → return left  (the hole you opened)
