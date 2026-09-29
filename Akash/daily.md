@@ -16,7 +16,11 @@ Review day is the point. New problems don't stick if you never close the book.
 
 Week 1 practice: 22–27 Sep (days 1–6). Review: **28 Sep**. Cover all 12 problems.
 
+Week 2 practice: 29 Sep–4 Oct (days 8–13). Review: **5 Oct**. Day 7 was the week-1 review file.
+
 Copy a blank row when you start a practice day. File the code in `day-N-DD-mon.js`. Review days go in the table as `review` — no new #1/#2.
+
+## Week 1
 
 | Day | Date | #1 | #2 | Traced | Notes |
 |-----|------|----|----|--------|-------|
@@ -27,6 +31,18 @@ Copy a blank row when you start a practice day. File the code in `day-N-DD-mon.j
 | 5 | 26 Sep 2026 | [Binary search](https://leetcode.com/problems/binary-search/) | [Search insert position](https://leetcode.com/problems/search-insert-position/) | yes | binary search: while left <= right so the last cell still gets checked. insert pos is the same loop — leftover left is where it belongs |
 | 6 | 27 Sep 2026 | [Valid parentheses](https://leetcode.com/problems/valid-parentheses/) | [Max nesting depth](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/) | yes | stack: push opener, pop must match (if/else shapes miss (([]){})). depth = max stack height, digits ignored |
 | review | 28 Sep 2026 | — | — | | week 1: days 1–6, hide files, re-trace + TC/SC |
+
+## Week 2
+
+| Day | Date | #1 | #2 | Traced | Notes |
+|-----|------|----|----|--------|-------|
+| 8 | 29 Sep 2026 | [Reverse linked list](https://leetcode.com/problems/reverse-linked-list/) | [Middle of the linked list](https://leetcode.com/problems/middle-of-the-linked-list/) | | walk nodes: reverse with prev/curr; middle with slow+1 / fast+2 |
+| 9 | 30 Sep 2026 | | | | |
+| 10 | 1 Oct 2026 | | | | |
+| 11 | 2 Oct 2026 | | | | |
+| 12 | 3 Oct 2026 | | | | |
+| 13 | 4 Oct 2026 | | | | |
+| review | 5 Oct 2026 | — | — | | week 2: days 8–13, hide files, re-trace + TC/SC |
 
 ---
 
