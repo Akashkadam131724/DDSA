@@ -63,7 +63,6 @@ function removeElements(head, val) {
   while (head) {
     if (head.val !== val) {
       res.next = head
-      res = res.next
     }
     head = head.next
   }
